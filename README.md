@@ -43,3 +43,11 @@ For a given hospital, our Hospital Management Database will organize given patie
 ![Screen Shot 2023-05-08 at 11 32 11 PM](https://user-images.githubusercontent.com/71999538/236987024-0500cb4c-f961-4c60-9f2d-b201f85465c4.png)
 ![Screen Shot 2023-05-08 at 11 32 14 PM](https://user-images.githubusercontent.com/71999538/236987025-4d95a0f4-7cd2-44ef-af5d-7d3b4dee09ad.png)
 ![Screen Shot 2023-05-08 at 11 32 18 PM](https://user-images.githubusercontent.com/71999538/236987027-c37c2061-2a40-4bdd-9d5e-86d252bd9e2b.png)
+
+## MySQL Query #1:
+![Screen Shot 2023-05-08 at 11 33 32 PM](https://user-images.githubusercontent.com/71999538/236987182-ce399d8b-6009-422b-b6b0-216e1cc595b5.png)
+![Screen Shot 2023-05-08 at 11 33 46 PM](https://user-images.githubusercontent.com/71999538/236987218-4a608139-64a8-4ac5-9d00-f392969b2787.png)
+
+## MySQL Query #2:
+![Screen Shot 2023-05-08 at 11 34 08 PM](https://user-images.githubusercontent.com/71999538/236987256-5f881e1f-5681-44dd-8b6e-9f6959b1a838.png)
+![Screen Shot 2023-05-08 at 11 34 14 PM](https://user-images.githubusercontent.com/71999538/236987264-dfa37a54-61ea-4a87-a0a0-036bce4be10a.png)
