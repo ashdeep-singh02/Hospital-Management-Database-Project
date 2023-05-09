@@ -4,15 +4,15 @@ For a given hospital, our Hospital Management Database will organize given patie
 
 ## Atributes:
 • Each patients must have
-•   Health Insurance ID
-•   Gender
-•   Name
-•   Phone Number
-•   Address
-•   Patient Medication (if av ailable)
-•   Patient Appointment Data
-•   Prescription
-•   TypeofService
+- Health Insurance ID
+- Gender
+- Name
+- Phone Number
+- Address
+- Patient Medication (if av ailable)
+- Patient Appointment Data
+- Prescription
+- TypeofService
 
 ## Features:
 • Allows physicians to v iew/update their patients’ medical history.
