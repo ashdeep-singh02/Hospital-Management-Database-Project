@@ -1,0 +1,23 @@
+(select c.patient_id, p.medication_id from consult as c natural join perscription as p;)
+
+select pt.patient_name, c.patient_id, p.medication_id from consult as c natural join perscription as p 
+natural join patient as pt;
+
+select pt.patient_name, p.medication_id from consult as c natural join perscription as p 
+natural join patient as pt;
+
+
+
+select pt.patient_name, p.medication_id from consult as c natural join perscription as p 
+natural join patient as pt
+
+select patient_name, medication_id, count(*) from (select pt.patient_name, p.medication_id from consult as c natural join perscription as p 
+natural join patient as pt) as x group by 1,2; 
+
+select patient_name, medication_id, count(*) as np from (select pt.patient_name, p.medication_id from consult as c natural join perscription as p 
+natural join patient as pt) as x group by 1,2; 
+
+select patient_name, patient_condition from pmc natural join patient;
+
+select patient_name, sum(cost) from (cost natural join service natural join consult natural join patient) group by patient_name;
+
