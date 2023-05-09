@@ -1,5 +1,7 @@
 # Hospital-Management-Database-Project
 
+CSCI 435 (Database Management) Final Project
+
 For a given hospital, our Hospital Management Database will organize given patient and doctor information. Using this information, doctors can not only access their employment information, but also view their patients’ details- like their previous health conditions, surgeries, medications they are taking, future appointments, etc. The system can also serve as an appointment guide to schedule appointments for patients and doctors. Finally, the doctor can keep track of the diagnosis they make and the medications they prescribed after their appointments.
 
 ## Atributes:
@@ -9,12 +11,12 @@ For a given hospital, our Hospital Management Database will organize given patie
 - Name
 - Phone Number
 - Address
-- Patient Medication (if av ailable)
+- Patient Medication (if available)
 - Patient Appointment Data
 - Prescription
 - TypeofService
 
-• Each Doctor must hav e:
+• Each Doctor must have:
 - Doctor Name
 - Doctor ID
 - Doctor Specialty
@@ -53,4 +55,6 @@ For a given hospital, our Hospital Management Database will organize given patie
 ![Screen Shot 2023-05-08 at 11 34 14 PM](https://user-images.githubusercontent.com/71999538/236987264-dfa37a54-61ea-4a87-a0a0-036bce4be10a.png)
 
 ## More Queries:
-`select patient_name, medication_id, count(*) from (select pt.patient_name, p.medication_id from consult as c natural join perscription as p natural join patient as pt) as x group by 1,2;`
+`select patient_name, medication_id, count(*) as np from (select pt.patient_name, p.medication_id from consult as c natural join perscription as p natural join patient as pt) as x group by 1,2; `
+`select patient_name, patient_condition from pmc natural join patient;`
+`select patient_name, sum(cost) from (cost natural join service natural join consult natural join patient) group by patient_name;`
