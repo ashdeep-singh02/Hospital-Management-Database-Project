@@ -20,9 +20,12 @@ For a given hospital, our Hospital Management Database will organize given patie
 - Doctor Specialty
 
 ## Features:
-• Allows physicians to v iew/update their patients’ medical history.
-• Allows Hospital Staff and the patient to v iew/update his/her appointment dates/times.
-• Allows patients and doctors to v iew (doctors can v iew/update) patient prescriptions and diagnoses made after appointment.
-• Allows Hospital Staff to v iew patient symptoms and concerns.
-• Patients and hospital staff can v iew doctor’s schedules.
-• View the payment plan/details of patient serv ices
+• Allows physicians to view/update their patients’ medical history.
+• Allows Hospital Staff and the patient to view/update his/her appointment dates/times.
+• Allows patients and doctors to view (doctors can view/update) patient prescriptions and diagnoses made after appointment.
+• Allows Hospital Staff to view patient symptoms and concerns.
+• Patients and hospital staff can view doctors' schedules.
+• View the payment plan/details of patient services.
+
+## ER Diagram:
+![Screen Shot 2023-05-08 at 11 28 23 PM](https://user-images.githubusercontent.com/71999538/236986574-c164a59c-c6bf-466c-9b61-2ebda1401542.png)
