@@ -14,6 +14,11 @@ For a given hospital, our Hospital Management Database will organize given patie
 - Prescription
 - TypeofService
 
+• Each Doctor must hav e:
+- Doctor Name
+- Doctor ID
+- Doctor Specialty
+
 ## Features:
 • Allows physicians to v iew/update their patients’ medical history.
 • Allows Hospital Staff and the patient to v iew/update his/her appointment dates/times.
