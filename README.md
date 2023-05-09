@@ -56,5 +56,7 @@ For a given hospital, our Hospital Management Database will organize given patie
 
 ## More Queries:
 `select patient_name, medication_id, count(*) as np from (select pt.patient_name, p.medication_id from consult as c natural join perscription as p natural join patient as pt) as x group by 1,2; `
+
 `select patient_name, patient_condition from pmc natural join patient;`
+
 `select patient_name, sum(cost) from (cost natural join service natural join consult natural join patient) group by patient_name;`
