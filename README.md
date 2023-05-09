@@ -51,3 +51,6 @@ For a given hospital, our Hospital Management Database will organize given patie
 ## MySQL Query #2:
 ![Screen Shot 2023-05-08 at 11 34 08 PM](https://user-images.githubusercontent.com/71999538/236987256-5f881e1f-5681-44dd-8b6e-9f6959b1a838.png)
 ![Screen Shot 2023-05-08 at 11 34 14 PM](https://user-images.githubusercontent.com/71999538/236987264-dfa37a54-61ea-4a87-a0a0-036bce4be10a.png)
+
+## More Queries:
+`select patient_name, medication_id, count(*) from (select pt.patient_name, p.medication_id from consult as c natural join perscription as p natural join patient as pt) as x group by 1,2;`
