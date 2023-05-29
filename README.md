@@ -1,6 +1,6 @@
 # Hospital-Management-Database-Project
 
-CSCI 435 (Database Management) Final Project
+Database Management Final Project
 
 For a given hospital, our Hospital Management Database will organize given patient and doctor information. Using this information, doctors can not only access their employment information, but also view their patients’ details- like their previous health conditions, surgeries, medications they are taking, future appointments, etc. The system can also serve as an appointment guide to schedule appointments for patients and doctors. Finally, the doctor can keep track of the diagnosis they make and the medications they prescribed after their appointments.
 
