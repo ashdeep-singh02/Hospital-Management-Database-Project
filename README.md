@@ -1,4 +1,4 @@
-# Hospital-Management-Database-Project
+# Hospital Management Database
 
 Database Management Final Project
 
